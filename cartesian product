@@ -1,0 +1,5 @@
+from itertools import product
+A = [1, 2]
+B = [3, 4]
+X = list(product(A, B))
+print(X)
