@@ -1,0 +1,9 @@
+import calander
+import datetime
+input_date=input().split()
+month=int(input_date[0])
+day=int(input_date[1])
+year=int(input_date[2])
+date=datetime.date(year,month,day)
+week=date.strftime('%A').upper()
+print(week)
